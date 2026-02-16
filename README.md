@@ -1,3 +1,55 @@
+
+
+# 🔖 Smart Bookmark App
+
+A modern bookmark manager built with **Next.js App Router + Supabase + TailwindCSS**.
+
+Users can securely log in with Google or Email, save private bookmarks, edit/delete them, and see updates instantly without refreshing.
+
+---
+
+## 🚀 Live Demo
+
+👉 Add your deployed Vercel URL here  
+Example: https://smart-bookmark.vercel.app
+
+---
+
+## 📌 Features
+
+✅ Google OAuth Login  
+✅ Email/Password Authentication  
+✅ JWT session handling via Supabase Auth  
+✅ Add bookmarks (title + URL)  
+✅ Edit bookmarks  
+✅ Delete bookmarks  
+✅ Private bookmarks per user (Row Level Security)  
+✅ Real-time UI updates without refresh  
+✅ Responsive modern UI with Tailwind  
+✅ Protected dashboard route  
+✅ Logout functionality  
+✅ Ready for production deployment
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** Next.js 15+ (App Router)
+- **Backend:** Supabase
+- **Database:** PostgreSQL (Supabase)
+- **Authentication:** Supabase Auth (Google OAuth + Email)
+- **Realtime:** Optimistic UI updates
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
