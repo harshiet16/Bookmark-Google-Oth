@@ -2,7 +2,7 @@
 
 import { supabase } from '../../lib/supabase'
 import { useEffect, useState } from 'react'
-import Navbar from '../../app/bookmarks/components/Navbar'
+import Navbar from './components/Navbar'
 import BookmarkForm from './components/BookmarkForm'
 import BookmarkList from './components/BookmarkList'
 
@@ -31,7 +31,6 @@ export default function Bookmarks(){
   useEffect(()=>{
 
     const init=async()=>{
-
       const {data}=await supabase.auth.getUser()
 
       if(!data.user){
@@ -106,7 +105,7 @@ export default function Bookmarks(){
     }
   }
 
-  if(!user) return <p className="p-10">Loading dashboard...</p>
+  if(!user) return <p className="p-10 text-white">Loading dashboard...</p>
 
   return(
     <main className="min-h-screen bg-gray-950 text-white">
